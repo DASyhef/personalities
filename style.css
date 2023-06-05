@@ -1,0 +1,200 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+ul,ol
+{
+    list-style: none ;
+}
+body
+{
+    background: #bfbfbf url('images/background.jpg') repeat-x; 
+    font-family: Arial, sans-serif;
+}
+header
+{
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+header h1
+{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Limelight', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #000;
+}
+
+#principal
+{
+    width: 1228px;
+    height: 500px;
+    display: flex;
+    background-repeat: no-repeat;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.on
+{
+    display: flex;
+
+}
+
+.off
+{
+    display: none;
+}
+
+.inside 
+{
+    width: 140px;
+    height: 500px;
+    display: flex;    
+    background-image: url("images/bw-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.color 
+{
+    width: 140px;
+    height: 500px;
+    display: flex;
+    background-image: url("images/color-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.whozzat
+{
+    width: 280px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content:center;
+}
+
+.whozzat h2 h3
+{
+    margin: 50px;
+}
+
+p
+{
+    margin: 20px;
+}
+
+#clip-1
+{
+    clip-path: inset(0px 700px 0px 140px);
+    background-position: left;
+}
+
+#txt-1
+{
+    display: none;
+}
+
+#clip-2
+{
+    background-position: -139px;
+}
+
+#txt-2
+{
+    display: none;
+}
+
+#clip-3
+{
+    background-position: -282px;
+}
+
+#txt-3
+{
+    display: flex;
+}
+
+#clip-4
+{
+    background-position: -424px;
+}
+
+#txt-4
+{
+    display: none;
+}
+
+#clip-5
+{
+    background-position: -564px;
+}
+
+#txt-5
+{
+    display: none;
+}
+
+section
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+
+.btn
+{
+    margin: 25px;
+    width: 150px;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
