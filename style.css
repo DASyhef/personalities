@@ -34,7 +34,7 @@ header h1
 #principal
 {
     margin: 50px;
-    width: 1228px;
+    width: 1500px;
     height: 500px;
     display: flex;
     background-repeat: no-repeat;
@@ -189,6 +189,32 @@ p
 #color-5
 {
     background-position: -564px;
+}
+
+.Eric
+{
+    background-image: url("images/photo_cv-removebg-preview.webp");
+    width: 140px;
+    height: 500px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+.nb
+{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: 1s;
+    display:block;
+}
+
+.imgcolor
+{
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transition: 1s;
+    display:flex
 }
 
 section

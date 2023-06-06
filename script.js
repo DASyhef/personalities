@@ -4,11 +4,13 @@ let c2 = document.getElementById("color-2");
 let c3 = document.getElementById("color-3");
 let c4 = document.getElementById("color-4");
 let c5 = document.getElementById("color-5");
+let c6 = document.getElementById("clip-6");
 let t1 = document.getElementById("txt-1");
 let t2 = document.getElementById("txt-2");
 let t3 = document.getElementById("txt-3");
 let t4 = document.getElementById("txt-4");
 let t5 = document.getElementById("txt-5");
+let t6 = document.getElementById("txt-6");
 
 
 function therock() {
@@ -21,11 +23,13 @@ function therock() {
     document.getElementById("color-3").setAttribute('class', 'color off');
     document.getElementById("color-4").setAttribute('class', 'color off');
     document.getElementById("color-5").setAttribute('class', 'color off');
+    document.getElementById("clip-6").setAttribute('class', 'Eric nb');
     document.getElementById("txt-1").setAttribute('class', 'whozzat t-on');
     document.getElementById("txt-2").setAttribute('class', 'whozzat t-off');
     document.getElementById("txt-3").setAttribute('class', 'whozzat t-off');
     document.getElementById("txt-4").setAttribute('class', 'whozzat t-off');
     document.getElementById("txt-5").setAttribute('class', 'whozzat t-off');
+    document.getElementById("txt-6").setAttribute('class', 'whozzat t-off');
       }
 }
 document.getElementById("therock").addEventListener('click', therock)
@@ -40,11 +44,13 @@ function vindiesel() {
     document.getElementById("color-3").setAttribute('class', 'color off');
     document.getElementById("color-4").setAttribute('class', 'color off');
     document.getElementById("color-5").setAttribute('class', 'color off');
+    document.getElementById("clip-6").setAttribute('class', 'Eric nb');
     document.getElementById("txt-1").setAttribute('class', 'whozzat t-off');
     document.getElementById("txt-2").setAttribute('class', 'whozzat t-on');
     document.getElementById("txt-3").setAttribute('class', 'whozzat t-off');
     document.getElementById("txt-4").setAttribute('class', 'whozzat t-off');
     document.getElementById("txt-5").setAttribute('class', 'whozzat t-off');
+    document.getElementById("txt-6").setAttribute('class', 'whozzat t-off');
       }
 }
 document.getElementById("vindiesel").addEventListener('click', vindiesel)
@@ -59,11 +65,13 @@ function imenes() {
     document.getElementById("color-3").setAttribute('class', 'color on');
     document.getElementById("color-4").setAttribute('class', 'color off');
     document.getElementById("color-5").setAttribute('class', 'color off');
+    document.getElementById("clip-6").setAttribute('class', 'Eric nb');
     document.getElementById("txt-1").setAttribute('class', 'whozzat t-off');
     document.getElementById("txt-2").setAttribute('class', 'whozzat t-off');
     document.getElementById("txt-3").setAttribute('class', 'whozzat t-on');
     document.getElementById("txt-4").setAttribute('class', 'whozzat t-off');
     document.getElementById("txt-5").setAttribute('class', 'whozzat t-off');
+    document.getElementById("txt-6").setAttribute('class', 'whozzat t-off');
       }
 }
 document.getElementById("imenes").addEventListener('click', imenes)
@@ -78,11 +86,13 @@ function jessicaalba() {
     document.getElementById("color-3").setAttribute('class', 'color off');
     document.getElementById("color-4").setAttribute('class', 'color on');
     document.getElementById("color-5").setAttribute('class', 'color off');
+    document.getElementById("clip-6").setAttribute('class', 'Eric nb');
     document.getElementById("txt-1").setAttribute('class', 'whozzat t-off');
     document.getElementById("txt-2").setAttribute('class', 'whozzat t-off');
     document.getElementById("txt-3").setAttribute('class', 'whozzat t-off');
     document.getElementById("txt-4").setAttribute('class', 'whozzat t-on');
     document.getElementById("txt-5").setAttribute('class', 'whozzat t-off');
+    document.getElementById("txt-6").setAttribute('class', 'whozzat t-off');
       }
 }
 document.getElementById("jessicaalba").addEventListener('click', jessicaalba)
@@ -97,11 +107,34 @@ function zitahanrot() {
     document.getElementById("color-3").setAttribute('class', 'color off');
     document.getElementById("color-4").setAttribute('class', 'color off');
     document.getElementById("color-5").setAttribute('class', 'color on');
+    document.getElementById("clip-6").setAttribute('class', 'Eric nb');
     document.getElementById("txt-1").setAttribute('class', 'whozzat t-off');
     document.getElementById("txt-2").setAttribute('class', 'whozzat t-off');
     document.getElementById("txt-3").setAttribute('class', 'whozzat t-off');
     document.getElementById("txt-4").setAttribute('class', 'whozzat t-off');
     document.getElementById("txt-5").setAttribute('class', 'whozzat t-on');
+    document.getElementById("txt-6").setAttribute('class', 'whozzat t-off');
       }
 }
 document.getElementById("zitahanrot").addEventListener('click', zitahanrot)
+
+function Eric() {
+    if (getComputedStyle(c6).display != "block") {
+        c6.setAttribute('class', 'Eric nb');
+        t6.setAttribute('class', 'whozzat t-off')
+      } else {
+    document.getElementById("color-1").setAttribute('class', 'color off');
+    document.getElementById("color-2").setAttribute('class', 'color off');
+    document.getElementById("color-3").setAttribute('class', 'color off');
+    document.getElementById("color-4").setAttribute('class', 'color off');
+    document.getElementById("color-5").setAttribute('class', 'color off');
+    document.getElementById("clip-6").setAttribute('class', 'Eric imgcolor');
+    document.getElementById("txt-1").setAttribute('class', 'whozzat t-off');
+    document.getElementById("txt-2").setAttribute('class', 'whozzat t-off');
+    document.getElementById("txt-3").setAttribute('class', 'whozzat t-off');
+    document.getElementById("txt-4").setAttribute('class', 'whozzat t-off');
+    document.getElementById("txt-5").setAttribute('class', 'whozzat t-off');
+    document.getElementById("txt-6").setAttribute('class', 'whozzat t-on');
+     }
+}
+document.getElementById("Eric").addEventListener('click', Eric)
