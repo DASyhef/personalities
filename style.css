@@ -33,6 +33,7 @@ header h1
 
 #principal
 {
+    margin: 50px;
     width: 1228px;
     height: 500px;
     display: flex;
@@ -44,13 +45,14 @@ header h1
 
 .on
 {
-    display: flex;
-
+    opacity: 1;
+    transition: 1s;
 }
 
 .off
 {
-    display: none;
+    opacity: 0;
+    transition: 1s;
 }
 
 .inside 
@@ -70,17 +72,42 @@ header h1
     background-image: url("images/color-image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
 }
 
 .whozzat
 {
-    width: 280px;
     height: 500px;
     background-color: white;
     flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content:center;
+    display: block;
+    overflow: hidden;
+}
+
+.description
+{
+    width: 280px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.t-on
+{
+    width: 280px;
+    transition: 1s;
+}
+
+.t-off
+{
+    width: 0px;
+    transition: 1s;
 }
 
 .whozzat h2 h3
@@ -88,9 +115,27 @@ header h1
     margin: 50px;
 }
 
+h2
+{
+    font-family: Limelight;
+}
+
+h3
+{
+    width: 65%;
+    background-color: blue;
+    font-family: Limelight;
+    color: white;
+    text-shadow: -2px 3px 2px black;
+    border-radius: 10px;
+
+}
+
+
 p
 {
     margin: 20px;
+    font-family: lobster;
 }
 
 #clip-1
