@@ -229,13 +229,14 @@ section
     margin: 25px;
     width: 150px;
     height: 100px;
+    background-color: #bfbfbf;
+    border-radius: 25px;
 }
 
-
-
-
-
-
+.btn:hover
+{
+    background-color: #8b8a8a;
+}
 
 
 
