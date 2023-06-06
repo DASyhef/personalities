@@ -196,7 +196,6 @@ p
     background-image: url("images/photo_cv-removebg-preview.webp");
     width: 140px;
     height: 500px;
-    display: flex;
     background-repeat: no-repeat;
     background-size: cover;    
 }
