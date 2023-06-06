@@ -67,7 +67,6 @@ header h1
 {
     width: 140px;
     height: 500px;
-    display: flex;
     background-image: url("images/color-image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -78,7 +77,6 @@ header h1
     width: 280px;
     height: 500px;
     background-color: white;
-    display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -101,9 +99,10 @@ p
     background-position: left;
 }
 
-#txt-1
+#color-1
 {
-    display: none;
+    clip-path: inset(0px 700px 0px 140px);
+    background-position: left;
 }
 
 #clip-2
@@ -111,19 +110,20 @@ p
     background-position: -139px;
 }
 
-#txt-2
+#color-2
 {
-    display: none;
+    background-position: -139px;
 }
+
 
 #clip-3
 {
     background-position: -282px;
 }
 
-#txt-3
+#color-3
 {
-    display: flex;
+    background-position: -282px;
 }
 
 #clip-4
@@ -131,9 +131,9 @@ p
     background-position: -424px;
 }
 
-#txt-4
+#color-4
 {
-    display: none;
+    background-position: -424px;
 }
 
 #clip-5
@@ -141,9 +141,9 @@ p
     background-position: -564px;
 }
 
-#txt-5
+#color-5
 {
-    display: none;
+    background-position: -564px;
 }
 
 section
